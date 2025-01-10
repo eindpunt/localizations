@@ -48,13 +48,13 @@ nl:
       title: Account
       tagline: Accountinstellingen beheren
       email_address: Emailadres
-      refer_and_earn: Refer and Earn
-      refer_and_earn_hint: Give the gift of TRMNL with a personalized coupon. Earn per use, paid monthly.
-      refer_and_earn_redemptions: Redemptions # how many times this coupon has been used
-      refer_and_earn_request_code: Request a Code
-      device_invoice: Device Invoice
-      device_invoice_label: Download commercial documents for your accountant or (weird) PDF collection.
-      device_invoice_hint: Find this on your package tracking page or shipment notification email.
+      refer_and_earn: Beveel aan en verdien
+      refer_and_earn_hint: Geef TRMNL cadeau met een gepersonaliseerde coupon. Verdien per gebruik, maandelijks betaald.
+      refer_and_earn_redemptions: Aantal verzilveringen # how many times this coupon has been used
+      refer_and_earn_request_code: Code aanvragen
+      device_invoice: Factuur toestel
+      device_invoice_label: Download commerciële documenten voor je accountant of (vreemde) PDF-verzameling.
+      device_invoice_hint: Vind dit op je postordertrackingspagina of in je verzendbevestigingsmail.
       email_address_hint: Gebruikt om in te loggen bij TRMNL en systeemberichten te ontvangen.
       first_name_hint: We gebruiken jouw naam om de TRMNL interface meer comfortabel te maken.
       last_name_hint: We gebruiken jouw naam om de TRMNL interface meer comfortabel te maken.
@@ -64,7 +64,7 @@ nl:
       time_zone: Tijdzone
       time_zone_hint: Bepaalt de refresh rates en apparaat slaapmodus.
       locale: Locale
-      locale_hint: What language and localization do you prefer? __Go here__.
+      locale_hint: Welke taal en lokalisatie heeft je voorkeur? __Stel hier in__.
 
     # toast messages
     update:
@@ -101,12 +101,12 @@ nl:
   devices:
     edit:
       accepts_beta_firmware: Firmware Early Release # true/false toggle to receive new device updates before regular users
-      accepts_beta_firmware_hint: Toggle on to get the latest device firmware improvements before other users.
+      accepts_beta_firmware_hint: Schakel in om de nieuwste firmwareverbeteringen voor je apparaat te krijgen voordat andere gebruikers deze krijgen.
       back_to_devices: Terug naar apparaten
       battery_consumption: Batterijgebruik
       battery_consumption_hint: Bespaar energie en geniet van een langere batterijduur door slaapmodus te activeren.
-      developer_perks: Developer Perks # heading; below this is a list of options for devices with (paid) Developer edition add-on
-      developer_perks_hint: Options below require the __Developer add-on__.
+      developer_perks: Voordelen voor ontwikkelaars # heading; below this is a list of options for devices with (paid) Developer edition add-on
+      developer_perks_hint: De onderstaande opties vereisen de __Developer add-on__.
       device_name: Apparaatnaam
       device_name_hint: We gebruiken dit om de TRMNL interface meer comfortabel te maken
       edit_device: Apparaat bewerken
@@ -116,17 +116,17 @@ nl:
       mirror: Spiegelen
       mirror_device: Spiegel een ander apparaat
       mirror_device_hint: Geef een (deelbaar) apparaat ID op om zijn afspeellijst te spiegelen. Jouw afspeellijst wordt nog steeds getoond.
-      ota_enabled: OTA Updates Enabled
-      ota_enabled_hint: Automatically install new firmware. Disable to use your own firmware.
+      ota_enabled: OTA-updates ingeschakeld
+      ota_enabled_hint: Installeer automatisch nieuwe firmware. Schakel uit om je eigen firmware te gebruiken.
       sleep_mode: Slaapmodus
       sleep_mode_hint: Pas de refresh rate aan om focus en batterijduur te optimaliseren.
-      special_function: Special Function
-      special_function_hint: Set a double-click feature for the button on the back of your device.
-      special_function_learn_more: Learn more about special functions __here__.
+      special_function: Speciale functie
+      special_function_hint: Stel een dubbelklikfunctie in voor de knop aan de achterkant van je apparaat.
+      special_function_learn_more: Leer meer over speciale functies __hier__.
       unlink: Ontkoppelen
       unlink_device: Apparaat ontkoppelen
       unlink_device_hint: Door een TRMNL apparaat te ontkoppelen kun je het veilig verkopen of aan iemand anders geven.
-      visibility: Vindbaarheid
+      visibility: Zichtbaarheid
       visibility_hint: Maak jouw TRMNL apparaat spiegelbaar door onderstaande instelling aan te passen.
       your_device: Jouw TRMNL
     index:
@@ -193,24 +193,24 @@ nl:
       placeholder: Zoeken binnen plugins
     my:
       title: My Plugins
-      tagline: Develop Plugins for the public marketplace
-      submit_for_review: Submit for Review
+      tagline: Ontwikkel plugins voor de publieke marktplaats
+      submit_for_review: Indienen voor beoordeling
     new:
-      title: Create New Plugin
-      tagline: Enable other user to install your plugin.
-      name: Name
-      description: Description
-      description_hint: Maximum 50 characters
-      icon: Icon
-      icon_hint: 40px*40px recommended
-      installation_url_hint: Learn more about the installation flow __here__.
-      management_url_hint: Learn more about the management flow __here__.
-      markup_url_hint: Learn more about screen generation __here__.
+      title: Nieuwe plugin aanmaken
+      tagline: Sta andere gebruikers toe om je plugin te installeren.
+      name: Naam
+      description: Beschrijving
+      description_hint: Maximum 50 karakters
+      icon: Icoon
+      icon_hint: 40px*40px aanbevolen
+      installation_url_hint: Meer informatie over instalatieflow __hier__.
+      management_url_hint: Meer informatie over de beheersflow __hier__.
+      markup_url_hint: Meer informatie over de schermgeneratie __hier__.
     edit:
-      title: Edit Plugin
-      tagline: Update your plugin details.
-      name: Name
-      description: Description
+      title: Bewerk Plugin
+      tagline: Update je plugin details.
+      name: Naam
+      description: Beschrijving
   plugin_settings:
     active: Actief
     delete: Hiermee verwijder je de instellingen van de plugin volledig. Om deze plugin simpelweg te verbergen verwijder je deze uit jouw afspeellijst.
@@ -235,8 +235,8 @@ nl:
       plugin_uuid: Plugin UUID
       plugin_uuid_hint: Gebruik deze om Webhook API requests te maken.
       preview: Preview - jouw apparaat zal echte data tonen
-      refresh_rate: Refresh rate
-      refresh_rate_hint: Bepaal hoe vaak deze plugin instantie verse data ophaalt
+      refresh_rate: Refresh frequentie
+      refresh_rate_hint: Bepaal hoe vaak deze plugininstantie date vernieuwd
       refreshed: Ververst
       synced: Synced
       visit_docs: Bekijk Docs
@@ -249,12 +249,12 @@ nl:
       success: Plugin verwijderd
     handle_canceled_consent: Consent afgewezen, probeer het nogmaals
     update:
-      success: Plugin configuratie is succesvol bijgewerkt
+      success: Pluginconfiguratie is succesvol bijgewerkt
     add_to_playlist:
-      success: Plugin added to Playlist
+      success: Plugin toegevoegd aan de afspeellijst
 
   upgrade:
     index:
       title: "Upgrading device:"
-      tagline: Unlock custom plugins and __more__.
+      tagline: Ontgrendel op maat gemaakte plugins en __meer__.
       pay: Pay # button text; ex "Pay $20"
